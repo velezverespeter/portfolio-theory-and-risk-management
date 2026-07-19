@@ -1,0 +1,34 @@
+# Secrets & credentials
+.env
+*.env
+config/secrets.yaml
+*_api_key*
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data (uncomment if data is large/private — keep sample data tracked instead)
+# data/raw/
+# *.csv
+# *.xlsx
+
+# OS
+.DS_Store
+Thumbs.db
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+
+# IDE
+.vscode/
+.idea/
